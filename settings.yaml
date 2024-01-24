@@ -1,0 +1,39 @@
+###################################
+# File: settings.yaml
+# Version 1.0
+# Author: Danny Hunter
+# Description:
+#   Settings for the third programming assignment of METR 2613
+###################################
+
+data_file: ".\\NWC0_05A.dat"
+output_file_path: ".\\"
+start_datetime: "2021-02-01 00:00"
+end_datetime: "2021-02-03 23:55"
+wind_graph_name: "wind_speed_graphs.png"
+wind_histogram_bins: [0,0.2,0.4,0.6,0.8,1.0,1.2,1.4,1.6,1.8,2.0,2.2,2.4,2.6,2.8,3.0]
+variable:
+    tair:
+        qa:
+            high_limit: 60
+            low_limit: -40
+    relh:
+        qa:
+            high_limit: 100
+            low_limit: 0
+    srad:
+        qa:
+            high_limit: 1500
+            low_limit: -5
+    wspd:
+        qa:
+            high_limit: 50
+            low_limit: 0
+    wmax:
+        qa:
+            high_limit: 50
+            low_limit: 0
+    chil:
+        qa:
+            high_limit: 5
+            low_limit: -75

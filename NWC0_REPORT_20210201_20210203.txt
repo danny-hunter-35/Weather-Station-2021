@@ -1,0 +1,8 @@
+Statistics Report
+Input file: .\NWC0_05A.dat
+Output Data:
+                                                              Air Temperature (C)     Wind Speed (m/s)
+     File/day      Missing Observations  Precipitation (mm)   Max    Min    Mean      Max    Min    Mean   
+ NWC0_20210201.dat           15                  0.00         17.78  -0.83  5.96      0.38   0.00   0.10   
+ NWC0_20210202.dat           4                   4.57         15.35  -8.12  8.15      1.19   0.04   0.46   
+ NWC0_20210203.dat           11                  0.00         17.93  3.23   9.23      1.34   0.20   0.55   
